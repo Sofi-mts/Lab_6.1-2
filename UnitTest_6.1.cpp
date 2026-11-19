@@ -132,5 +132,6 @@ int main() {
 
     cout << endl << "Checks passed: " << passed << ", failed: " << failed << endl;
     cout << (failed == 0 ? "ALL TESTS PASSED" : "SOME TESTS FAILED") << endl;
+    system("pause");    // щоб вікно не закривалося одразу
     return failed == 0 ? 0 : 1;
 }

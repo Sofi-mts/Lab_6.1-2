@@ -80,5 +80,6 @@ int main() {
     Replace(b, n, 0);
     Print(b, n, 0);
 
+    system("pause");    // щоб вікно не закривалося одразу
     return 0;
 }
